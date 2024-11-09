@@ -17,6 +17,9 @@ This project contains two separate python script files and one GeoJSON point fil
   3. **VIF test:** Variance inflation factor was used to check for multiocollinearity, regarding independent variables
   4. **AIC:** AIC crtrerion was applied in order to compute best lag value for Granger causality test
 
-  - 
+- A series of linear and non linear models were applied, assuiming that CH4 is the dependenet variable and the rest of the Sentinel-5p parameters are the independent variables: linear model, generalized linear model, linear model with interaction terms, polynomial one and random forest model
+ 
+- In addition to the models, Granger causality test was applied
+
  
 
