@@ -12,14 +12,14 @@ This project contains two separate python script files and one GeoJSON point fil
 ## Python script: "Data_analysis"
 - Data_analysis script is a continuation of the previous script. It includes data imputation and preparation for the statistical analysis that was conducted. Specifically, apart from statistical models, the following statistical tests and data analyses were applied:
   
-  1. **Kalman imputation:** Kalman filter was applied in order to calculate missing data values of 2023 for each atmospheric daily timeseries.
+  1. **Kalman imputation:** Kalman filter was implemented in order to calculate missing data values of 2023 for each atmospheric daily timeseries.
   2. **ADF test:** Augmented Dickey–Fuller test was applied in order to test stationarity for each timeseries
   3. **VIF test:** Variance inflation factor was used to check for multicollinearity, among the independent variables
   4. **AIC criterion:** AIC criterion was applied in order to compute best lag value for Granger causality test
 
 - A series of linear and non-linear models were applied, assuming that CH4 is the dependenet variable and the rest of the Sentinel-5p parameters as independent variables: linear model, generalized linear model, linear model with interaction terms, polynomial model and random forest model. Apart from the statistical results, the following graphs were created: Residuals vs Fitted values, Q-Q plot, Scale-Location and Interaction plot (for the model with interaction terms)
  
-- In addition to the models, Granger causality test was applied
+- In addition to the models, Granger causality test was performed
 
  
 
