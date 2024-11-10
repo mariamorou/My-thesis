@@ -1,6 +1,8 @@
 # My-thesis
 
-This project contains two separate python script files and one GeoJSON point file for the diploma thesis titled  **“Research on the relationship of Methane concentrations with other atmospheric pollutants and parameters through multidimensional analysis of Sentinel-5P data”**. 
+This project contains two separate python script files and one GeoJSON point file for the diploma thesis titled  
+**“Research on the relationship of Methane concentrations with other atmospheric pollutants and parameters through multidimensional analysis of Sentinel-5P data”**. 
+
 Based on the requirements of the thesis, this project focuses on the following atmospheric gases and parameters of Sentinel-5p: CH4, CO, NO2, SO2, HCHO, aerosol index, cloud fraction (aerosol height was exported but not used in the atmospheric analysis). Current thesis focuses on the research of the relationship of CH4 with the rest of the atmospheric variables. For more details you can read the full thesis at the following URL:
 
 ## Python script: "Download_atmospheric_data"
